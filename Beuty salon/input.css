@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+ol{
+    font-family: typeecon;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    border: none;
+    text-decoration: none;
+    outline: none;
+    scroll-behavior: smooth;  
+    font-family: "Work Sans", sans-serif
+    
+    
+  } 
+
+  .navbar{
+    display: flex;
+}
+.navbar a{
+    padding: 10px 25px;
+    font-size: var(--p-font) ;
+    font-weight: 400;
+    color: var(--other-color);
+    transition: all 40s ease;
+    
+}
